@@ -1,5 +1,5 @@
 body {
-	background-image: -webkit-linear-gradient(#c3ad91, #e6b155, #a4712d);
+	background-image: -webkit-linear-gradient(#F0EAD6, #F0EAD6, #F0EAD6);
 	background-repeat: none;
 	background-attachment: fixed;
 }
@@ -26,7 +26,7 @@ header {
 .foto {
 	width: 150px;
 	box-shadow: #D2B48b 2px 2px 4px 4px, #bb9769 2px 2px 4px 4px inset;
-	padding: 8px;
+	padding: 1px;
 	float: left;
 	margin: 0 auto;
 	margin-left: 15px;
@@ -58,20 +58,21 @@ h1 {
 	vertical-align: middle;
 	font-family: 'Zilla Slab', serif;
 }
-
+	
 nav {
 	margin-top: 20px;
 	margin: auto;
-	background-color: #800020;
+	background-color: #3b70ec;
 }
 
 nav ul {
+	border: 1px solid black;
 	margin-top: 20px;
 	font-size: 25px;
 	font: bold;
 	text-align: center;
-	padding: 5px;
-	word-spacing: 15px;
+	padding: 5px 2px 5px 2px;
+	word-spacing: 8px;
 
 }
 
@@ -82,11 +83,13 @@ nav ul {
 }
 
 .navegacion a {
+	padding: 5px;
 	text-decoration: none;
 	color: rgb(255, 255, 255);
 	font-weight: 900;
 	margin: auto;
 }
+
 
 .navegacion:hover {
 	border: 1px solid black;
