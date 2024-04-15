@@ -1,5 +1,5 @@
 body {
-	background-image: -webkit-linear-gradient(#729bd1, #5b60a4, #7276a9);
+	background-image: -webkit-linear-gradient(#c3ad91, #e6b155, #a4712d);
 	background-repeat: none;
 	background-attachment: fixed;
 }
@@ -25,7 +25,7 @@ header {
 
 .foto {
 	width: 150px;
-	box-shadow: black 2px 2px 4px 4px, #2762af 2px 2px 4px 4px inset;
+	box-shadow: #D2B48b 2px 2px 4px 4px, #bb9769 2px 2px 4px 4px inset;
 	padding: 8px;
 	float: left;
 	margin: 0 auto;
@@ -62,7 +62,7 @@ h1 {
 nav {
 	margin-top: 20px;
 	margin: auto;
-	background-color: #cccccc;
+	background-color: #800020;
 }
 
 nav ul {
@@ -83,7 +83,7 @@ nav ul {
 
 .navegacion a {
 	text-decoration: none;
-	color: black;
+	color: rgb(255, 255, 255);
 	font-weight: 900;
 	margin: auto;
 }
